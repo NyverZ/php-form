@@ -1,0 +1,62 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+<style>
+  body {
+    background: url("img/bg.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+  }
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 254, 254);
+  }
+
+  h3 span {
+    transition: 0, 5ms;
+  }
+  h32:hover span:nth-child(1) {
+    margin-right: 10px;
+  }
+  h3:hover span:nth-child(1) {
+    margin-right: 10px;
+  }
+  h3:hover span:nth-child(1)::after {
+    content: "☕🫘";
+  }
+  h3:hover span:nth-child(2) {
+    margin-left: 40px;
+  }
+  h3:hover span {
+    color: #ffff;
+    text-shadow: 0 0 10px #ffff, 0 0 200px #ffff, 0 0 40px #ffff, 0 0 80px #ffff,
+      0 0 120px #ffff;
+  }
+</style>
+<header>
+  <h3>
+    <span><span></span>WELCOME TO GODDESS CAFÉ TERRACE</span>
+  </h3>
+  <ul class="nav justify-content-center">
+    <a class="nav-link" href="index.php">Home</a>
+    <a class="nav-link" href="login.php">Login</a>
+    <a class="nav-link" href="register.php">Register</a>
+  </ul>
+</header>

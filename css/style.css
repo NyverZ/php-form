@@ -1,0 +1,115 @@
+body {
+  background: url("img/bg2.jpg");
+  align-items: center;
+  justify-content: center;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  border-radius: 40px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 15px;
+  padding: 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
+.btn--primary:hover {
+  background: #f37703;
+  color: rgb(255, 255, 255);
+}
+
+img:hover {
+  box-shadow: 0 0 10px #f37703, 0 0 200px #f37703, 0 0 40px #f37703;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  height: 100vh;
+}
+img {
+  transition: 0, 5ms;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 40%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fdfdfd;
+  cursor: pointer;
+}
+b {
+  color: #fdfdfd;
+}
+p {
+  color: #fdfdfd;
+}
+
+h1 span {
+  transition: 0, 5ms;
+}
+h1:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+h1:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+h1:hover span:nth-child(1)::after {
+  content: "☕🫘";
+}
+h1:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+h1:hover span {
+  color: #ffff;
+  text-shadow: 0 0 10px #80ff2c, 0 0 200px #80ff2c, 0 0 40px #80ff2c,
+    0 0 80px #80ff2c, 0 0 120px #80ff2c;
+}
+a {
+  color: aqua;
+  transition: 0, 5ms;
+}
+a:hover {
+  text-shadow: 0 0 10px #ff5d2c, 0 0 200px #ff5d2c, 0 0 40px #ff5d2c,
+    0 0 80px #ff5d2c, 0 0 120px #ff5d2c;
+}
+i span {
+  transition: 0, 5ms;
+}
+i:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+i:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+i:hover span:nth-child(1)::after {
+  content: "☕";
+}
+i:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+i:hover span {
+  color: #ffff;
+  text-shadow: 0 0 10px #ffff, 0 0 200px #ffffff, 0 0 40px #ffff, 0 0 80px #ffff,
+    0 0 120px #ffff;
+}
+
+i {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
